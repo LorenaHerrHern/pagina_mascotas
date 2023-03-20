@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Página web de perritos</title>
+        <!--Para vincular html con css-->
+        <link href="style.css" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Las sig. etiquetas son para encabezados-->
+       <h1>¡Pagina de mascotas!</h1> 
+       <h2>Esta es una pagina de perritos</h2>
+       <h3>Hecha por Lorena Herrera</h3>
+       
+       <!--Se agrega imagen desde pag de internet-->
+       <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2022/08/09/3FFA8546-05CE-4608-9B69-6602D02A4C58/cachorro-pomsky_98.jpg?crop=1183,666,x0,y103&width=1900&height=1069&optimize=high&format=webply">
+
+       <br>
+
+       <!--Agregar imagen desde la computadora-->
+       <img src="imagenes/galaxia-nebulosas-astronomia-imagen-shutterstock.jpg">
+
+      <!--Listas ordenadas y desordenadas-->
+      <h3>Lista de Perritos</h3> 
+      <p>3 Cosas que los perros <strong>aman</strong></p>
+    
+    <!--Lista ordenada-->
+    <ol> <!--Ordered list-->
+        <li>Dormir</li>
+        <li>Jugar</li>
+        <li>Comer</li>
+    </ol>
+
+    <!--Lista desordenada-->
+    <p>3 Cosas que los perros <strong>odian</strong></p>
+
+    <ul>
+        <li>Bañarse</li>
+        <li>Ir al veterinario</li>
+        <li>Cortarse el pelo</li>
+    </ul>
+
+    <!--Crear enlaces externos-->
+    <p>Si quieres ver mas fotos de perritos <a href="https://www.google.com.mx/search?q=fotos+de+perritos&hl=es&authuser=0&tbm=isch&sxsrf=AJOqlzVnA4UNhVxVaavFKq5Hw91UuoBlxA%3A1675529032549&source=hp&biw=1366&bih=625&ei=SIveY5HVH8rukPIPiO24qA0&iflsig=AK50M_UAAAAAY96ZWLU0Hrq9tpPtzaOA3vL044fow3my&ved=0ahUKEwiRma2GqPz8AhVKN0QIHYg2DtUQ4dUDCAc&uact=5&oq=fotos+de+perritos&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CwgAEIAEELEDEIMBOgoIABANEIAEELEDOgcIABANEIAEOg0IABANEIAEELEDEIMBOgQIABADUABYtR1g2iNoAHAAeACAAUiIAakIkgECMTeYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img" target="_blank">da click aqui</a></p>
+
+    <!--Formularios con botones de radio-->
+    <form>
+        <p>¿Tu perrito es cachorro o es adulto?</p>
+        <label>
+           <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked> Cachorro
+        </label>
+
+        <br> <!--Para poner los botones verticalmente-->
+
+        <label>
+            <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> Adulto
+         </label>
+
+         <!--Formulario con casillas de verificacion-->
+         <p>¿Como es el caracter de tu perro?</p>
+         <label>
+            <input id="perezoso" type="checkbox" value="perezoso" name="personalidad" checked> Perezoso
+         </label>
+         <br>
+         <label>
+            <input id="energico" type="checkbox" value="energico" name="personalidad"> Enérgico
+         </label>
+         <br>
+         <label>
+            <input id="jugueton" type="checkbox" value="jugueton" name="personalidad"> Juguetón
+         </label>
+    </form>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+    </footer>
+
+
+    </body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    color:darkblue;
+    /*Ponerle color al fondo*/
+    background-color: rgb(187, 193, 228);
+    font-family: 'Lora', serif;
+}
+
+h1{
+    color: #3318ca;
+    font-size: 60px;/*tamaño de letra*/
+}
+
+h3{
+    color: #1da1c3;
+}
+
+img{
+    width: 400px; /*ancho de imagen*/
+    height: 250px; /*altura*/
+    padding: 10px; /*separa las imagenes*/
+    margin: 10px;
+}
+
+footer{
+    background-color: #99ceff;
+}
