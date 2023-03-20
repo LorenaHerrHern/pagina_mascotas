@@ -8,7 +8,7 @@
 * [3. Objetivo del proyecto](#)
 * [4. Link a demo](#)
 
-**
+****
 
 ## 1. Intro
 
@@ -18,9 +18,9 @@ HTML5 trabaja de la mano con CSS3 para crear páginas web que usamos todos los d
 
 En este proyecto me enfoqué en construir una Página sencilla sobre mascotas. Contiene las siguientes secciones:
 
-* *Header*: Sección que involucra la foto de mi perfil, iconos y el menú con hipervínculos.
+* *Header*: Sección que involucra el titulo, imagenes relacionadas con este tema.
 
-* *Main*: Sección del contenedor para los elementos centrales de la página: logo, barra de búsqueda, iconos y botones.
+* *Main*: Sección del contenedor en donde se incluyen listas ordenadas y no ordenadas.
 
 * *Footer*: Sección que incluye un hipervínculo al final de la página.
 
